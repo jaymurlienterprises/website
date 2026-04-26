@@ -16,7 +16,7 @@ export function Navbar() {
         <div className="flex items-center justify-between rounded-2xl bg-white/5 px-6 py-4 backdrop-blur-xl border border-white/10">
           {/* Logo */}
           <div className="flex items-center gap-3">
-            <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-br from-blue-400 to-blue-600">
+            <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-br from-amber-400 to-orange-600">
               <span className="font-bold text-white text-lg">JM</span>
             </div>
             <span className="hidden md:block font-semibold text-white text-lg">
@@ -44,7 +44,7 @@ export function Navbar() {
           <div className="hidden lg:block">
             <a
               href="#contact"
-              className="rounded-full bg-gradient-to-r from-blue-500 to-blue-600 px-6 py-2.5 text-white hover:shadow-lg hover:shadow-blue-500/50 transition-all"
+              className="rounded-full bg-gradient-to-r from-amber-500 to-orange-600 px-6 py-2.5 text-white hover:shadow-lg hover:shadow-orange-500/50 transition-all"
             >
               Get in Touch
             </a>
@@ -98,7 +98,7 @@ export function Navbar() {
               <a
                 href="#contact"
                 onClick={() => setIsOpen(false)}
-                className="rounded-full bg-gradient-to-r from-blue-500 to-blue-600 px-6 py-2.5 text-white text-center hover:shadow-lg hover:shadow-blue-500/50 transition-all mt-2"
+                className="rounded-full bg-gradient-to-r from-amber-500 to-orange-600 px-6 py-2.5 text-white text-center hover:shadow-lg hover:shadow-orange-500/50 transition-all mt-2"
               >
                 Get in Touch
               </a>

@@ -9,8 +9,8 @@ export function Hero() {
     <section id="home" className="relative min-h-screen flex items-center px-6 md:px-12 lg:px-16 pt-32 pb-20">
       {/* Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-1/4 -left-48 w-96 h-96 bg-blue-500/20 rounded-full blur-3xl" />
-        <div className="absolute bottom-1/4 -right-48 w-96 h-96 bg-blue-600/20 rounded-full blur-3xl" />
+        <div className="absolute top-1/4 -left-48 w-96 h-96 bg-amber-500/20 rounded-full blur-3xl" />
+        <div className="absolute bottom-1/4 -right-48 w-96 h-96 bg-orange-600/20 rounded-full blur-3xl" />
       </div>
 
       <div className="relative mx-auto max-w-7xl w-full">
@@ -25,9 +25,9 @@ export function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.4 }}
-              className="inline-block mb-6 rounded-full bg-blue-500/10 border border-blue-500/20 px-4 py-2"
+              className="inline-block mb-6 rounded-full bg-amber-500/10 border border-amber-500/20 px-4 py-2"
             >
-              <span className="text-blue-400 text-sm">Trusted by Government & Industries</span>
+              <span className="text-amber-300 text-sm">Trusted by Government & Industries</span>
             </motion.div>
 
             <motion.h1
@@ -38,7 +38,7 @@ export function Hero() {
             >
               One Enterprise.
               <br />
-              <span className="bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-amber-300 to-orange-500 bg-clip-text text-transparent">
                 Every Solution.
               </span>
             </motion.h1>
@@ -58,15 +58,15 @@ export function Hero() {
               transition={{ duration: 0.6, delay: 0.7 }}
               className="flex flex-col sm:flex-row gap-4"
             >
-              <div className="flex-1 flex gap-2">
+              <div className="flex-1 flex flex-col sm:flex-row gap-2">
                 <input
                   type="email"
                   placeholder="Enter your email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className="flex-1 rounded-full bg-white/5 border border-white/10 px-6 py-3.5 text-white placeholder:text-gray-500 focus:outline-none focus:border-blue-500/50 focus:shadow-lg focus:shadow-blue-500/20 transition-all backdrop-blur-xl"
+                  className="min-w-0 flex-1 rounded-full bg-white/5 border border-white/10 px-6 py-3.5 text-white placeholder:text-gray-500 focus:outline-none focus:border-orange-500/50 focus:shadow-lg focus:shadow-orange-500/20 transition-all backdrop-blur-xl"
                 />
-                <button className="rounded-full bg-gradient-to-r from-blue-500 to-blue-600 px-8 py-3.5 text-white hover:shadow-lg hover:shadow-blue-500/50 transition-all flex items-center gap-2 whitespace-nowrap">
+                <button className="w-full sm:w-auto justify-center rounded-full bg-gradient-to-r from-amber-500 to-orange-600 px-8 py-3.5 text-white hover:shadow-lg hover:shadow-orange-500/50 transition-all flex items-center gap-2 whitespace-nowrap">
                   Get Quote
                   <ArrowRight size={18} />
                 </button>
@@ -116,7 +116,7 @@ export function Hero() {
                         initial={{ width: 0 }}
                         animate={{ width: "98%" }}
                         transition={{ duration: 1.5, delay: 1 }}
-                        className="h-full rounded-full bg-gradient-to-r from-blue-400 to-blue-600"
+                        className="h-full rounded-full bg-gradient-to-r from-amber-400 to-orange-600"
                       />
                     </div>
                   </div>
@@ -130,7 +130,7 @@ export function Hero() {
                         initial={{ width: 0 }}
                         animate={{ width: "95%" }}
                         transition={{ duration: 1.5, delay: 1.2 }}
-                        className="h-full rounded-full bg-gradient-to-r from-blue-400 to-blue-600"
+                        className="h-full rounded-full bg-gradient-to-r from-amber-400 to-orange-600"
                       />
                     </div>
                   </div>
@@ -141,7 +141,7 @@ export function Hero() {
               <motion.div
                 animate={{ y: [0, -10, 0] }}
                 transition={{ duration: 3, repeat: Infinity }}
-                className="absolute -top-6 -right-6 rounded-2xl bg-gradient-to-br from-blue-500 to-blue-600 p-4 shadow-lg shadow-blue-500/50"
+                className="absolute -top-6 -right-6 rounded-2xl bg-gradient-to-br from-amber-500 to-orange-600 p-4 shadow-lg shadow-orange-500/50"
               >
                 <div className="text-2xl">🎯</div>
               </motion.div>
@@ -149,7 +149,7 @@ export function Hero() {
               <motion.div
                 animate={{ y: [0, 10, 0] }}
                 transition={{ duration: 3, repeat: Infinity, delay: 0.5 }}
-                className="absolute -bottom-6 -left-6 rounded-2xl bg-gradient-to-br from-blue-500 to-blue-600 p-4 shadow-lg shadow-blue-500/50"
+                className="absolute -bottom-6 -left-6 rounded-2xl bg-gradient-to-br from-amber-500 to-orange-600 p-4 shadow-lg shadow-orange-500/50"
               >
                 <div className="text-2xl">⚡</div>
               </motion.div>

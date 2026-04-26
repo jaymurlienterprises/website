@@ -8,7 +8,7 @@ export function Footer() {
           {/* Company Info */}
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-br from-blue-400 to-blue-600">
+              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-br from-amber-400 to-orange-600">
                 <span className="font-bold text-white text-lg">JM</span>
               </div>
               <span className="font-semibold text-white">JayMurli Enterprises</span>
@@ -19,19 +19,19 @@ export function Footer() {
             <div className="flex gap-3">
               <a
                 href="#"
-                className="rounded-lg bg-white/5 p-2 text-gray-400 hover:bg-blue-500/20 hover:text-blue-400 transition-all"
+                className="rounded-lg bg-white/5 p-2 text-gray-400 hover:bg-amber-500/20 hover:text-amber-300 transition-all"
               >
                 <Linkedin size={18} />
               </a>
               <a
                 href="#"
-                className="rounded-lg bg-white/5 p-2 text-gray-400 hover:bg-blue-500/20 hover:text-blue-400 transition-all"
+                className="rounded-lg bg-white/5 p-2 text-gray-400 hover:bg-amber-500/20 hover:text-amber-300 transition-all"
               >
                 <Twitter size={18} />
               </a>
               <a
                 href="#"
-                className="rounded-lg bg-white/5 p-2 text-gray-400 hover:bg-blue-500/20 hover:text-blue-400 transition-all"
+                className="rounded-lg bg-white/5 p-2 text-gray-400 hover:bg-amber-500/20 hover:text-amber-300 transition-all"
               >
                 <Facebook size={18} />
               </a>
@@ -83,16 +83,16 @@ export function Footer() {
             <h4 className="text-white font-semibold mb-4">Contact Us</h4>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
-                <Mail className="text-blue-400 flex-shrink-0 mt-0.5" size={16} />
-                <span className="text-gray-400 text-sm">info@jaymurli.com</span>
+                <Mail className="text-amber-300 flex-shrink-0 mt-0.5" size={16} />
+                <span className="text-gray-400 text-sm">jaymurlienterprises@gmail.com</span>
               </li>
               <li className="flex items-start gap-3">
-                <Phone className="text-blue-400 flex-shrink-0 mt-0.5" size={16} />
-                <span className="text-gray-400 text-sm">+91 XXXXX XXXXX</span>
+                <Phone className="text-amber-300 flex-shrink-0 mt-0.5" size={16} />
+                <span className="text-gray-400 text-sm">+91 9689667072 | 7447667072</span>
               </li>
               <li className="flex items-start gap-3">
-                <MapPin className="text-blue-400 flex-shrink-0 mt-0.5" size={16} />
-                <span className="text-gray-400 text-sm">Corporate Office, India</span>
+                <MapPin className="text-amber-300 flex-shrink-0 mt-0.5" size={16} />
+                <span className="text-gray-400 text-sm">N-11 G 10/9, NAVJIVAN COLONEY HUDCO CHHATRAPATI SAMBHAJINAGAR<br/>FLAT NO 2, 163/A, 164, NAGESHWAR GALLI, PARNER, AHILYANAGAR 414302</span>
               </li>
             </ul>
           </div>

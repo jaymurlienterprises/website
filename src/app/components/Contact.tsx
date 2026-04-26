@@ -20,8 +20,8 @@ export function Contact() {
     <section id="contact" className="relative px-6 md:px-12 lg:px-16 py-24">
       {/* Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl" />
-        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-blue-600/10 rounded-full blur-3xl" />
+        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl" />
+        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-orange-600/10 rounded-full blur-3xl" />
       </div>
 
       <div className="relative mx-auto max-w-7xl">
@@ -60,40 +60,40 @@ export function Contact() {
 
             <div className="space-y-6">
               <div className="flex items-start gap-4">
-                <div className="rounded-xl bg-blue-500/20 p-3">
-                  <Mail className="text-blue-400" size={24} />
+                <div className="rounded-xl bg-amber-500/20 p-3">
+                  <Mail className="text-amber-300" size={24} />
                 </div>
                 <div>
                   <div className="text-sm text-gray-500 mb-1">Email</div>
-                  <div className="text-white">info@jaymurli.com</div>
+                  <div className="text-white">jaymurlienterprises@gmail.com</div>
                 </div>
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="rounded-xl bg-blue-500/20 p-3">
-                  <Phone className="text-blue-400" size={24} />
+                <div className="rounded-xl bg-amber-500/20 p-3">
+                  <Phone className="text-amber-300" size={24} />
                 </div>
                 <div>
                   <div className="text-sm text-gray-500 mb-1">Phone</div>
-                  <div className="text-white">+91 XXXXX XXXXX</div>
+                  <div className="text-white">9689667072 | 7447667072</div>
                 </div>
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="rounded-xl bg-blue-500/20 p-3">
-                  <MapPin className="text-blue-400" size={24} />
+                <div className="rounded-xl bg-amber-500/20 p-3">
+                  <MapPin className="text-amber-300" size={24} />
                 </div>
                 <div>
                   <div className="text-sm text-gray-500 mb-1">Address</div>
                   <div className="text-white">
-                    Corporate Office, India
+                    N-11 G 10/9, NAVJIVAN COLONEY HUDCO CHHATRAPATI SAMBHAJINAGAR<br/>FLAT NO 2, 163/A, 164, NAGESHWAR GALLI, PARNER, AHILYANAGAR 414302
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="rounded-2xl bg-gradient-to-br from-blue-500/20 to-blue-600/10 backdrop-blur-xl border border-blue-500/50 p-6">
-              <div className="text-blue-400 mb-2">Business Hours</div>
+            <div className="rounded-2xl bg-gradient-to-br from-amber-500/20 to-orange-600/10 backdrop-blur-xl border border-orange-500/50 p-6">
+              <div className="text-amber-300 mb-2">Business Hours</div>
               <div className="text-white">Monday - Saturday: 9:00 AM - 6:00 PM</div>
               <div className="text-gray-400 text-sm mt-1">Sunday: Closed</div>
             </div>
@@ -119,7 +119,7 @@ export function Contact() {
                     setFormData({ ...formData, name: e.target.value })
                   }
                   required
-                  className="w-full rounded-xl bg-white/5 border border-white/10 px-6 py-3.5 text-white placeholder:text-gray-500 focus:outline-none focus:border-blue-500/50 focus:shadow-lg focus:shadow-blue-500/20 transition-all backdrop-blur-xl"
+                  className="w-full rounded-xl bg-white/5 border border-white/10 px-6 py-3.5 text-white placeholder:text-gray-500 focus:outline-none focus:border-orange-500/50 focus:shadow-lg focus:shadow-orange-500/20 transition-all backdrop-blur-xl"
                   placeholder="Your name"
                 />
               </div>
@@ -136,7 +136,7 @@ export function Contact() {
                     setFormData({ ...formData, email: e.target.value })
                   }
                   required
-                  className="w-full rounded-xl bg-white/5 border border-white/10 px-6 py-3.5 text-white placeholder:text-gray-500 focus:outline-none focus:border-blue-500/50 focus:shadow-lg focus:shadow-blue-500/20 transition-all backdrop-blur-xl"
+                  className="w-full rounded-xl bg-white/5 border border-white/10 px-6 py-3.5 text-white placeholder:text-gray-500 focus:outline-none focus:border-orange-500/50 focus:shadow-lg focus:shadow-orange-500/20 transition-all backdrop-blur-xl"
                   placeholder="your@email.com"
                 />
               </div>
@@ -153,14 +153,14 @@ export function Contact() {
                   }
                   required
                   rows={6}
-                  className="w-full rounded-xl bg-white/5 border border-white/10 px-6 py-3.5 text-white placeholder:text-gray-500 focus:outline-none focus:border-blue-500/50 focus:shadow-lg focus:shadow-blue-500/20 transition-all backdrop-blur-xl resize-none"
+                  className="w-full rounded-xl bg-white/5 border border-white/10 px-6 py-3.5 text-white placeholder:text-gray-500 focus:outline-none focus:border-orange-500/50 focus:shadow-lg focus:shadow-orange-500/20 transition-all backdrop-blur-xl resize-none"
                   placeholder="Tell us about your requirements..."
                 />
               </div>
 
               <button
                 type="submit"
-                className="w-full rounded-xl bg-gradient-to-r from-blue-500 to-blue-600 px-8 py-4 text-white hover:shadow-lg hover:shadow-blue-500/50 transition-all flex items-center justify-center gap-2"
+                className="w-full rounded-xl bg-gradient-to-r from-amber-500 to-orange-600 px-8 py-4 text-white hover:shadow-lg hover:shadow-orange-500/50 transition-all flex items-center justify-center gap-2"
               >
                 Send Message
                 <Send size={18} />

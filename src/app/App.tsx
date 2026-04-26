@@ -9,15 +9,23 @@ import { Footer } from "./components/Footer";
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#0B1F3A] via-[#0F2D4F] to-[#1A4D8F] overflow-x-hidden">
-      <Navbar />
-      <Hero />
-      <ClientLogos />
-      <Services />
-      <Features />
-      <About />
-      <Contact />
-      <Footer />
+    <div className="relative min-h-screen overflow-x-hidden bg-gradient-to-br from-[#2B1207] via-[#7A3207] to-[#D96A00]">
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-0 bg-[url('/assets/map.svg')] bg-center bg-no-repeat opacity-10 mix-blend-overlay"
+      />
+      <div aria-hidden className="pointer-events-none absolute inset-0 bg-black/30" />
+
+      <div className="relative z-10">
+        <Navbar />
+        <Hero />
+        <ClientLogos />
+        <Services />
+        <Features />
+        <About />
+        <Contact />
+        <Footer />
+      </div>
     </div>
   );
 }

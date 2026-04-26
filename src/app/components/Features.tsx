@@ -29,7 +29,7 @@ export function Features() {
     <section className="relative px-6 md:px-12 lg:px-16 py-24">
       {/* Background Element */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl" />
       </div>
 
       <div className="relative mx-auto max-w-7xl">
@@ -60,9 +60,9 @@ export function Features() {
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 className="group relative"
               >
-                <div className="relative rounded-2xl bg-white/5 backdrop-blur-xl border border-white/10 p-8 hover:bg-white/10 hover:border-blue-500/50 transition-all hover:shadow-lg hover:shadow-blue-500/20">
-                  <div className="mb-6 inline-flex rounded-xl bg-gradient-to-br from-blue-500/20 to-blue-600/10 p-3">
-                    <Icon className="text-blue-400" size={28} />
+                <div className="relative rounded-2xl bg-white/5 backdrop-blur-xl border border-white/10 p-8 hover:bg-white/10 hover:border-orange-500/50 transition-all hover:shadow-lg hover:shadow-orange-500/20">
+                  <div className="mb-6 inline-flex rounded-xl bg-gradient-to-br from-amber-500/20 to-orange-600/10 p-3">
+                    <Icon className="text-amber-300" size={28} />
                   </div>
 
                   <h3 className="text-lg font-semibold text-white mb-3">

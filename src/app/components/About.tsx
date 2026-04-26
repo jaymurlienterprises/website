@@ -21,22 +21,8 @@ export function About() {
             transition={{ duration: 0.8 }}
             className="relative"
           >
-            <div className="relative rounded-3xl overflow-hidden">
-              <div className="aspect-[4/3] bg-gradient-to-br from-blue-500/20 to-blue-600/10 backdrop-blur-xl border border-white/20 rounded-3xl p-12 flex items-center justify-center">
-                <div className="text-center">
-                  <div className="text-6xl mb-4">🏢</div>
-                  <div className="text-white text-2xl font-bold mb-2">
-                    JayMurli Enterprises
-                  </div>
-                  <div className="text-gray-400">
-                    Building Trust Since Inception
-                  </div>
-                </div>
-              </div>
-
-              {/* Decorative Elements */}
-              <div className="absolute -top-4 -right-4 w-24 h-24 bg-blue-500/30 rounded-full blur-2xl" />
-              <div className="absolute -bottom-4 -left-4 w-24 h-24 bg-blue-600/30 rounded-full blur-2xl" />
+            <div className="flex items-center justify-center">
+              <img src="/logo.jpeg" alt="JayMurli Enterprises Logo" className="mx-auto rounded-3xl" />
             </div>
           </motion.div>
 
@@ -66,10 +52,10 @@ export function About() {
                   initial={{ opacity: 0, x: 20 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
-                  transition={{ duration: 0.6, delay: index * 0.1 }}
-                  className="flex items-center gap-3"
-                >
-                  <CheckCircle2 className="text-blue-400 flex-shrink-0" size={24} />
+                transition={{ duration: 0.6, delay: index * 0.1 }}
+                className="flex items-center gap-3"
+              >
+                  <CheckCircle2 className="text-amber-300 flex-shrink-0" size={24} />
                   <span className="text-gray-300">{highlight}</span>
                 </motion.div>
               ))}
@@ -77,7 +63,7 @@ export function About() {
 
             <a
               href="#contact"
-              className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-blue-500 to-blue-600 px-8 py-3.5 text-white hover:shadow-lg hover:shadow-blue-500/50 transition-all"
+              className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-amber-500 to-orange-600 px-8 py-3.5 text-white hover:shadow-lg hover:shadow-orange-500/50 transition-all"
             >
               Partner With Us
               <svg
